@@ -9,6 +9,7 @@
     <title>Pet Collector</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
     <header class="navbar-fixed">
@@ -19,8 +20,10 @@
                 </ul>
                 <ul class="right">
                     <li><a href="{% url 'about' %}">About</a></li>
-                    <li><a href="{% url 'pets_create' %}">Add a Pet</a></li>
-                    <li><a href="{% url 'index' %}">View All Pets</a></li>
+                    <li><a href="{% url 'toys_create' %}">Add Toy</a></li>
+                    <li><a href="{% url 'toys_index' %}">View Toys</a></li>
+                    <li><a href="{% url 'pets_create' %}">Add Pet</a></li>
+                    <li><a href="{% url 'index' %}">View Pets</a></li>
                 </ul>
             </div>
         </nav>
