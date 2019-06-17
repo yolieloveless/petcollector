@@ -18,8 +18,9 @@
                     <li><a href="/" class="left brand-logo">&nbsp;&nbsp;Pet Collector</a></li>
                 </ul>
                 <ul class="right">
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/pets">View All Pets</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'pets_create' %}">Add a Pet</a></li>
+                    <li><a href="{% url 'index' %}">View All Pets</a></li>
                 </ul>
             </div>
         </nav>
